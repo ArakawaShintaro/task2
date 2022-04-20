@@ -1,0 +1,15 @@
+current directory: /Users/arakawashintaro/Desktop/Rails6-bookers2-debug-main/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/arakawashintaro/.rbenv/versions/2.6.3/bin/ruby -I /Users/arakawashintaro/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20220420-64115-1hv3f1j.rb extconf.rb
+creating Makefile
+
+current directory: /Users/arakawashintaro/Desktop/Rails6-bookers2-debug-main/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/arakawashintaro/Desktop/Rails6-bookers2-debug-main/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/arakawashintaro/Desktop/Rails6-bookers2-debug-main/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20220420-64115-3r3zvj

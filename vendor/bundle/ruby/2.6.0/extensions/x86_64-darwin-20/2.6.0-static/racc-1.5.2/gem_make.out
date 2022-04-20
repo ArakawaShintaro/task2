@@ -1,0 +1,16 @@
+current directory: /Users/arakawashintaro/Desktop/Rails6-bookers2-debug-main/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+/Users/arakawashintaro/.rbenv/versions/2.6.3/bin/ruby -I /Users/arakawashintaro/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20220420-64115-11q04mp.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/arakawashintaro/Desktop/Rails6-bookers2-debug-main/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/arakawashintaro/Desktop/Rails6-bookers2-debug-main/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/arakawashintaro/Desktop/Rails6-bookers2-debug-main/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20220420-64115-1qom7rq/racc
