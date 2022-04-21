@@ -11,6 +11,15 @@
       <tr>
         <td><%= image_tag user.get_profile_image, size: '50x50' %></td>
         <td><%= user.name %></td>
+        <td>
+          <% if user != current_user %>
+            <% if user.followed_by?(current_user) %>
+              <%= link_to "フォロー解除", user_relationships_path(user_id: user.id), method: :delete, class: "btn btn-sm btn-danger" %>
+            <% else %>
+              <%= link_to "フォローする", user_relationships_path(user_id: user.id), method: :post, class: "btn btn-sm btn-primary" %>
+            <% end %>
+          <% end %>
+				</td>
         <td><%= link_to 'Show', user, class: "user_#{user.id}" %></td>
       </tr>
     <% end %>
